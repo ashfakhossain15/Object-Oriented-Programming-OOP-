@@ -12,7 +12,7 @@ Book.prototype.getSummary = function () {
   );
 };
 
-// Magazine Constructor
+// Magazine Constructor 
 function Magazine(title, writer, pages, year, month) {
   Book.call(this, title, writer, pages, year);
 

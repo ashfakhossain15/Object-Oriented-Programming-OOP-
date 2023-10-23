@@ -25,9 +25,9 @@ console.log(book1.getSummary());
 
 const book2 = {
   title: "Walk for Bad Health",
-  writer: "Ashfak Hossain", 
+  writer: "Ashfak Hossain",
   year: 2024,
-  pages: 788,
+  pages: 788, 
 
   getSummary: function () {
     return `${this.title} was written by ${this.writer} on ${this.year} `;
